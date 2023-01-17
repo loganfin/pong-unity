@@ -618,8 +618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2cedd4443a1e403db64b9133cc8ffc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myRigidBody: {fileID: 1578200119}
-  ballSpeed: 0
+  ballSpeed: 200
 --- !u!50 &1578200119
 Rigidbody2D:
   serializedVersion: 4
@@ -634,13 +633,13 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 84e8c2dcaa1c3430f850bc5c477e6e71, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1578200120
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -768,13 +767,13 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &2073299767
 BoxCollider2D:
   m_ObjectHideFlags: 0
