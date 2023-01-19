@@ -549,8 +549,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 29449970}
-  playerOneScore: 9
-  playerTwoScore: 9
+  playerOneScore: 0
+  playerTwoScore: 0
   playerOneText: {fileID: 2124622389}
   playerTwoText: {fileID: 1398221972}
   ball: {fileID: 1578200118}
@@ -1036,7 +1036,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 589433284}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db27ae247f1fa4cf78f687d2e8bc3426, type: 3}
+  m_Script: {fileID: 11500000, guid: df9cb93b81bd34c21b3ebe6eaa0ee5af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keyUp: 119
@@ -1215,7 +1215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f375d37e8b6b841b09e870c4e4163c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ball: {fileID: 1578200115}
+  ball: {fileID: 1578200118}
   score: {fileID: 0}
   scoreTrigger:
     m_PersistentCalls:
@@ -2215,7 +2215,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1578200115}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2cedd4443a1e403db64b9133cc8ffc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 83d0286e14751449bb61edaffb1a1ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ballSpeed: 200
@@ -2908,7 +2908,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2073299763}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db27ae247f1fa4cf78f687d2e8bc3426, type: 3}
+  m_Script: {fileID: 11500000, guid: df9cb93b81bd34c21b3ebe6eaa0ee5af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keyUp: 273

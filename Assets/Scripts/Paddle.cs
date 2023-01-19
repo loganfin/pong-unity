@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PaddleMovement : MonoBehaviour
+public class Paddle: MonoBehaviour
 {
     public KeyCode keyUp;
     public KeyCode keyDown;

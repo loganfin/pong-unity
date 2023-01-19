@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public int playerTwoScore = 0;
     public Text playerOneText;
     public Text playerTwoText;
-    public BallScript ball;
+    public Ball ball;
     public GameObject winMenu;
     private Text winText;
 

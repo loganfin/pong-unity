@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class Scoring : MonoBehaviour
 {
-    public BallScript ball;
+    public Ball ball;
     public GameObject score;
     private EdgeCollider2D edge;
 
@@ -16,7 +16,7 @@ public class Scoring : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        ball = collision.gameObject.GetComponent<BallScript>();
+        ball = collision.gameObject.GetComponent<Ball>();
 
         if (ball != null) {
             BaseEventData eventData = new BaseEventData(EventSystem.current);
