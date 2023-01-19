@@ -17,13 +17,13 @@ public class Ball : MonoBehaviour
 
     public void StartForce()
     {
-        // determine whether the ball goes to the left or the right
+        // randomly determine whether the ball goes to the left or the right
         if (Random.value < 0.5f)
             direction.x = -1.0f;
         else
             direction.x = 1.0f;
 
-        // determine the value of the y component of the ball's inital velocity
+        // randomly determine whether the ball goes up or down
         if (Random.value < 0.5f)
             direction.y = Random.Range(-1.0f, -0.5f);
         else

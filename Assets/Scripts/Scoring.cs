@@ -4,7 +4,6 @@ using UnityEngine.EventSystems;
 public class Scoring : MonoBehaviour
 {
     public Ball ball;
-    public GameObject score;
     private EdgeCollider2D edge;
 
     public EventTrigger.TriggerEvent scoreTrigger;

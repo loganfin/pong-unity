@@ -1,25 +1,30 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-// track player score, pause menu, exit key
 public class GameManager : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public KeyCode pauseButton;
+    public KeyCode exitButton;
+
     public int playerOneScore = 0;
     public int playerTwoScore = 0;
     public Text playerOneText;
     public Text playerTwoText;
+
     public Ball ball;
+
     public GameObject winMenu;
+    public int winScore = 10;
     private Text winText;
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Tab)) {
+        if (Input.GetKeyDown(pauseButton)) {
             TogglePause();
         }
 
-        if (Input.GetKey(KeyCode.Escape)) {
+        if (Input.GetKey(exitButton)) {
             Application.Quit();
         }
 
@@ -44,10 +49,10 @@ public class GameManager : MonoBehaviour
 
     public void CheckWinCondition()
     {
-        if (playerOneScore > 9) {
+        if (playerOneScore > winScore-1) {
             playerWon("Player One");
         }
-        if (playerTwoScore > 9) {
+        if (playerTwoScore > winScore-1) {
             playerWon("Player Two");
         }
     }
@@ -67,8 +72,8 @@ public class GameManager : MonoBehaviour
     public void PlayerOneScore()
     {
         playerOneScore++;
-        ball.ResetPosition();
         playerOneText.text = playerOneScore.ToString();
+        ball.ResetPosition();
     }
 
     public void PlayerTwoScore()
