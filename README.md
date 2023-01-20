@@ -4,6 +4,7 @@ A two-player pong clone implemented using Unity and C#. The first player to 10 p
 - [Controls](#controls)
 - [Building the project](#building-the-project)
 - [Installing Unity](#installing-unity)
+- [Example Screenshots](Screenshots/README.md)
 
 ## Controls:
 
