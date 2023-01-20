@@ -1,9 +1,9 @@
 # Pong-Unity
 
 A two-player pong clone implemented using Unity and C#. The first player to 10 points wins the match.
-- [Controls](##controls)
-- [Building the project](##building-the-project)
-- [Installing Unity](##installing-unity)
+- [Controls](#controls)
+- [Building the project](#building-the-project)
+- [Installing Unity](#installing-unity)
 
 ## Controls:
 
@@ -14,7 +14,7 @@ A two-player pong clone implemented using Unity and C#. The first player to 10 p
 
 ## Building the Project:
 
-You must have Unity installed for your platform to compile the pong-unity executable. Learn how to install Unity [here](##installing-unity).
+You must have Unity installed for your platform to compile the pong-unity executable. Learn how to install Unity [here](#installing-unity).
 1. Clone the repository to your system using `git clone https://github.com/loganfin/pong-unity.git`.
 2. Open Unity-Hub and press "Open" in the top right corner of the window.
 3. Navigate to the location where you cloned the repository and click on the "pong-unity" folder to open the project in Unity.
@@ -30,4 +30,4 @@ Once the game is built, it should open automatically. The executable will be loc
 4. Select an install location for Unity-Hub and then select "Install"
 5. After Unity-Hub is installed, open it and choose an install location for the Unity Editor and click "Install".
 
-You are now ready to read the [build instructions!](##building-the-project)
+You are now ready to read the [build instructions!](#building-the-project)
