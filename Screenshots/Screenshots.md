@@ -1,3 +1,3 @@
-![Gameplay with tips](gameplay-with-tips.png)
-![Pause menu](pause-menu.png)
-![Win menu that appears upon a player winning](win-menu.png)
+![Gameplay with tips](Gameplay-With-Tips.png)
+![Pause menu](Pause-Menu.png)
+![Win menu that appears upon a player winning](Win-Menu.png)
